@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background: url(img/bg.jpg);
+    background-attachment: fixed;
+}
+
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+/* header */
+
+.header {
+    padding: 20px 0;
+
+    background: url(img/header.jpg) no-repeat bottom;
+}
+
+.header-title {
+    margin: 0;
+
+    font-size: 24px;
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.header-subtitle {
+    margin: 0;
+
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+
+    color: rgb(203, 224, 164);
+}
+
+
+/* nav */
+
+.nav-link {
+    display: inline-block;
+    padding: 10px 15px;
+
+    text-decoration: none;
+    color: rgb(37, 44, 25);
+}
+
+.nav-link:hover {
+    background-color: rgba(110, 134, 68, 0.5);
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.nav {
+    background: rgb(191, 214, 149);
+}
+
+
+/* content */
+
+.content {
+    padding: 20px 0;
+    background: rgba(76, 94, 45, 0.863);
+}
+
+.content-title {
+    margin: 0;
+
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.content-text {
+    display: block;
+    margin: 10px auto 30px;
+
+    text-align: center;
+    color: #ffffff;
+}
+
+.pic {
+    width: 325px;
+    margin-bottom: 30px;
+    transition: 1.5s;
+}
+
+.pic:hover {
+    transform: scale(1.1);
+}
+
+.container {
+    width: 700px;
+    margin: 30px auto 0;
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.more-photo {
+    display: block;
+    width: 90px;
+    margin-right: 50px;
+    margin-left: auto;
+
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.more-photo:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    padding: 10px 0;
+    background: rgb(191, 214, 149);
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-logo {
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: rgb(37, 44, 25);
+    margin-top: 5px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer-text {
+    color: rgb(37, 44, 25);
+}
