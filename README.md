@@ -1,2 +1,2 @@
 Open:
-https://nekoguard.github.io/Simple-site/
+https://alexandraliutsko.github.io/Simple-site/
